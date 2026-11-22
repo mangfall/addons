@@ -28,12 +28,15 @@ Müllabfuhr, Wetter und mehr. Kein YAML, kein roter Fehlerkasten, alles auf Deut
   <img src="docs/images/waste.png" width="32%" alt="Müllabfuhr">
 </p>
 
+[![Repository in Home Assistant hinzufügen](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmangfall%2Faddons)
+[![In HACS öffnen](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mangfall&repository=addons&category=plugin)
+
 ### Installation als App (empfohlen)
 
-1. **Einstellungen → Apps** (früher „Add-ons“) **→ App Store → ⋮ → Repositories**
-2. `https://github.com/mangfall/addons` eintragen und hinzufügen.
-3. **MANGFALL Karten** installieren und starten. Die App richtet die Karten ein und beendet sich danach.
-4. Im Dashboard: **Bearbeiten → Karte hinzufügen →** nach „MANGFALL“ suchen.
+1. Oben auf **„Repository hinzufügen“** klicken – oder von Hand: **Einstellungen → Apps** (früher „Add-ons“) **→ App Store → ⋮ → Repositories**
+   und `https://github.com/mangfall/addons` eintragen.
+2. **MANGFALL Karten** installieren und starten. Die App richtet die Karten ein und beendet sich danach.
+3. Im Dashboard: **Bearbeiten → Karte hinzufügen →** nach „MANGFALL“ suchen.
 
 ### Installation über HACS
 
