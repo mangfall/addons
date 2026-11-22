@@ -1,0 +1,25 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "aiohttp>=3.9,<4" ruff
+      - run: ruff format --check mangfall-cards
+      - run: node mangfall-cards/tests/cards.test.mjs
+      - run: python -m unittest discover -s mangfall-cards/tests -p 'test_*.py'
+      - name: versions match
+        run: |
+          js=$(sed -n 's/^const MC_VERSION = "\(.*\)";/\1/p' mangfall-cards/app/mangfall-cards.js)
+          yml=$(sed -n 's/^version: "\(.*\)"/\1/p' mangfall-cards/config.yaml)
+          test "$js" = "$yml" || { echo "MC_VERSION $js != config.yaml $yml"; exit 1; }
