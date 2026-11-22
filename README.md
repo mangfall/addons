@@ -11,7 +11,7 @@ sensors on their own, in one calm design. Two ways in, same file:
 
 Haglo Assist (haglotech/addons) uses the same cards and builds dashboards with them.
 
-## Für Kundinnen und Kunden
+## Für Kunden
 
 **MANGFALL Karten** – schöne Dashboard-Karten für Home Assistant, die ihre Sensoren selbst finden.
 Zisterne, Energiefluss, Strompreis, Raumklima, Heizung, Batterien, Fenster und Türen, Mähroboter,

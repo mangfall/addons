@@ -14,7 +14,7 @@ Where this file and the standard disagree, the standard wins; this file only add
 
 ## Language
 - Repo text in English. Customer-facing text in German: card strings, add-on `README.md`, `DOCS.md`,
-  `CHANGELOG.md`, add-on log messages, the "Für Kundinnen und Kunden" section of the top-level README.
+  `CHANGELOG.md`, add-on log messages, the "Für Kunden" section of the top-level README.
 
 ## Cards
 - Every card must show something useful without configuration, load fast, look calm, and never show a red
