@@ -1,0 +1,1079 @@
+{
+ "_hinweis": "Erfundener Beispielhaushalt für Werbebilder. Keine echten Daten.",
+ "states": {
+  "sensor.pv_leistung": {
+   "entity_id": "sensor.pv_leistung",
+   "state": "4120",
+   "attributes": {
+    "friendly_name": "PV Leistung",
+    "device_class": "power",
+    "unit_of_measurement": "W",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.netz_leistung": {
+   "entity_id": "sensor.netz_leistung",
+   "state": "-1340",
+   "attributes": {
+    "friendly_name": "Stromzähler Netzleistung",
+    "device_class": "power",
+    "unit_of_measurement": "W",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.batteriespeicher_leistung": {
+   "entity_id": "sensor.batteriespeicher_leistung",
+   "state": "-1450",
+   "attributes": {
+    "friendly_name": "Batteriespeicher Leistung",
+    "device_class": "power",
+    "unit_of_measurement": "W",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.hausverbrauch": {
+   "entity_id": "sensor.hausverbrauch",
+   "state": "1330",
+   "attributes": {
+    "friendly_name": "Hausverbrauch",
+    "device_class": "power",
+    "unit_of_measurement": "W",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.batteriespeicher_ladestand": {
+   "entity_id": "sensor.batteriespeicher_ladestand",
+   "state": "78",
+   "attributes": {
+    "friendly_name": "Batteriespeicher Ladestand",
+    "device_class": "battery",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.zisterne_fullstand": {
+   "entity_id": "sensor.zisterne_fullstand",
+   "state": "3240",
+   "attributes": {
+    "friendly_name": "Zisterne Füllstand",
+    "device_class": "volume_storage",
+    "unit_of_measurement": "L",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.zisterne_fullgrad": {
+   "entity_id": "sensor.zisterne_fullgrad",
+   "state": "65",
+   "attributes": {
+    "friendly_name": "Zisterne Füllgrad",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.wohnzimmer_temperatur": {
+   "entity_id": "sensor.wohnzimmer_temperatur",
+   "state": "21.4",
+   "attributes": {
+    "friendly_name": "Wohnzimmer Temperatur",
+    "device_class": "temperature",
+    "unit_of_measurement": "°C",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.wohnzimmer_luftfeuchtigkeit": {
+   "entity_id": "sensor.wohnzimmer_luftfeuchtigkeit",
+   "state": "47",
+   "attributes": {
+    "friendly_name": "Wohnzimmer Luftfeuchtigkeit",
+    "device_class": "humidity",
+    "unit_of_measurement": "%",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.kuche_temperatur": {
+   "entity_id": "sensor.kuche_temperatur",
+   "state": "22.1",
+   "attributes": {
+    "friendly_name": "Küche Temperatur",
+    "device_class": "temperature",
+    "unit_of_measurement": "°C",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.kuche_luftfeuchtigkeit": {
+   "entity_id": "sensor.kuche_luftfeuchtigkeit",
+   "state": "51",
+   "attributes": {
+    "friendly_name": "Küche Luftfeuchtigkeit",
+    "device_class": "humidity",
+    "unit_of_measurement": "%",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.schlafzimmer_temperatur": {
+   "entity_id": "sensor.schlafzimmer_temperatur",
+   "state": "18.6",
+   "attributes": {
+    "friendly_name": "Schlafzimmer Temperatur",
+    "device_class": "temperature",
+    "unit_of_measurement": "°C",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.schlafzimmer_luftfeuchtigkeit": {
+   "entity_id": "sensor.schlafzimmer_luftfeuchtigkeit",
+   "state": "55",
+   "attributes": {
+    "friendly_name": "Schlafzimmer Luftfeuchtigkeit",
+    "device_class": "humidity",
+    "unit_of_measurement": "%",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.bad_temperatur": {
+   "entity_id": "sensor.bad_temperatur",
+   "state": "23.0",
+   "attributes": {
+    "friendly_name": "Bad Temperatur",
+    "device_class": "temperature",
+    "unit_of_measurement": "°C",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.bad_luftfeuchtigkeit": {
+   "entity_id": "sensor.bad_luftfeuchtigkeit",
+   "state": "62",
+   "attributes": {
+    "friendly_name": "Bad Luftfeuchtigkeit",
+    "device_class": "humidity",
+    "unit_of_measurement": "%",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.buro_temperatur": {
+   "entity_id": "sensor.buro_temperatur",
+   "state": "20.7",
+   "attributes": {
+    "friendly_name": "Büro Temperatur",
+    "device_class": "temperature",
+    "unit_of_measurement": "°C",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.buro_luftfeuchtigkeit": {
+   "entity_id": "sensor.buro_luftfeuchtigkeit",
+   "state": "42",
+   "attributes": {
+    "friendly_name": "Büro Luftfeuchtigkeit",
+    "device_class": "humidity",
+    "unit_of_measurement": "%",
+    "state_class": "measurement"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.wohnzimmer_co2": {
+   "entity_id": "sensor.wohnzimmer_co2",
+   "state": "640",
+   "attributes": {
+    "friendly_name": "Wohnzimmer CO₂",
+    "device_class": "carbon_dioxide",
+    "unit_of_measurement": "ppm"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.buro_co2": {
+   "entity_id": "sensor.buro_co2",
+   "state": "1180",
+   "attributes": {
+    "friendly_name": "Büro CO₂",
+    "device_class": "carbon_dioxide",
+    "unit_of_measurement": "ppm"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "climate.wohnzimmer": {
+   "entity_id": "climate.wohnzimmer",
+   "state": "heat",
+   "attributes": {
+    "friendly_name": "Wohnzimmer",
+    "current_temperature": 21.4,
+    "temperature": 21.5,
+    "hvac_action": "heating",
+    "hvac_modes": [
+     "off",
+     "heat"
+    ],
+    "min_temp": 5,
+    "max_temp": 30
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "climate.bad": {
+   "entity_id": "climate.bad",
+   "state": "heat",
+   "attributes": {
+    "friendly_name": "Bad",
+    "current_temperature": 23.0,
+    "temperature": 23.0,
+    "hvac_action": "idle",
+    "hvac_modes": [
+     "off",
+     "heat"
+    ],
+    "min_temp": 5,
+    "max_temp": 30
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "climate.schlafzimmer": {
+   "entity_id": "climate.schlafzimmer",
+   "state": "heat",
+   "attributes": {
+    "friendly_name": "Schlafzimmer",
+    "current_temperature": 18.6,
+    "temperature": 18.0,
+    "hvac_action": "idle",
+    "hvac_modes": [
+     "off",
+     "heat"
+    ],
+    "min_temp": 5,
+    "max_temp": 30
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "climate.buro": {
+   "entity_id": "climate.buro",
+   "state": "heat",
+   "attributes": {
+    "friendly_name": "Büro",
+    "current_temperature": 20.7,
+    "temperature": 21.0,
+    "hvac_action": "heating",
+    "hvac_modes": [
+     "off",
+     "heat"
+    ],
+    "min_temp": 5,
+    "max_temp": 30
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.tibber_strompreis": {
+   "entity_id": "sensor.tibber_strompreis",
+   "state": "0.15",
+   "attributes": {
+    "friendly_name": "Tibber Strompreis",
+    "unit_of_measurement": "EUR/kWh",
+    "today": [
+     0.24,
+     0.23,
+     0.22,
+     0.22,
+     0.23,
+     0.25,
+     0.29,
+     0.33,
+     0.31,
+     0.27,
+     0.22,
+     0.18,
+     0.16,
+     0.15,
+     0.17,
+     0.21,
+     0.27,
+     0.34,
+     0.37,
+     0.35,
+     0.31,
+     0.28,
+     0.26,
+     0.25
+    ]
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.id_3_ladestand": {
+   "entity_id": "sensor.id_3_ladestand",
+   "state": "64",
+   "attributes": {
+    "friendly_name": "ID.3 Ladestand",
+    "device_class": "battery",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.id_3_reichweite": {
+   "entity_id": "sensor.id_3_reichweite",
+   "state": "248",
+   "attributes": {
+    "friendly_name": "ID.3 Reichweite",
+    "device_class": "distance",
+    "unit_of_measurement": "km"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "binary_sensor.id_3_ladekabel": {
+   "entity_id": "binary_sensor.id_3_ladekabel",
+   "state": "on",
+   "attributes": {
+    "friendly_name": "ID.3 Ladekabel",
+    "device_class": "plug"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "lawn_mower.sileno": {
+   "entity_id": "lawn_mower.sileno",
+   "state": "docked",
+   "attributes": {
+    "friendly_name": "Mähroboter"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.sileno_akku": {
+   "entity_id": "sensor.sileno_akku",
+   "state": "100",
+   "attributes": {
+    "friendly_name": "Mähroboter Akku",
+    "device_class": "battery",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "vacuum.saugi": {
+   "entity_id": "vacuum.saugi",
+   "state": "docked",
+   "attributes": {
+    "friendly_name": "Saugi",
+    "battery_level": 92
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.abfallkalender": {
+   "entity_id": "sensor.abfallkalender",
+   "state": "morgen",
+   "attributes": {
+    "friendly_name": "Abfallkalender",
+    "Gelber Sack": "2026-11-23",
+    "Restmüll": "2026-11-26",
+    "Papier": "2026-12-01",
+    "Biotonne": "2026-11-28"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "weather.musterstadt": {
+   "entity_id": "weather.musterstadt",
+   "state": "sunny",
+   "attributes": {
+    "friendly_name": "Musterstadt",
+    "temperature": 9.0,
+    "humidity": 71,
+    "wind_speed": 12.0,
+    "pressure": 1021,
+    "cloud_coverage": 10,
+    "temperature_unit": "°C",
+    "wind_speed_unit": "km/h",
+    "supported_features": 3
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "light.wohnzimmer_decke": {
+   "entity_id": "light.wohnzimmer_decke",
+   "state": "on",
+   "attributes": {
+    "friendly_name": "Decke",
+    "brightness": 180,
+    "supported_color_modes": [
+     "brightness"
+    ]
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "light.wohnzimmer_stehlampe": {
+   "entity_id": "light.wohnzimmer_stehlampe",
+   "state": "on",
+   "attributes": {
+    "friendly_name": "Stehlampe",
+    "brightness": 180,
+    "supported_color_modes": [
+     "brightness"
+    ]
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "light.kuche": {
+   "entity_id": "light.kuche",
+   "state": "on",
+   "attributes": {
+    "friendly_name": "Küche",
+    "brightness": 180,
+    "supported_color_modes": [
+     "brightness"
+    ]
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "light.flur": {
+   "entity_id": "light.flur",
+   "state": "off",
+   "attributes": {
+    "friendly_name": "Flur",
+    "brightness": null,
+    "supported_color_modes": [
+     "brightness"
+    ]
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "light.schlafzimmer": {
+   "entity_id": "light.schlafzimmer",
+   "state": "off",
+   "attributes": {
+    "friendly_name": "Schlafzimmer",
+    "brightness": null,
+    "supported_color_modes": [
+     "brightness"
+    ]
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "light.terrasse": {
+   "entity_id": "light.terrasse",
+   "state": "off",
+   "attributes": {
+    "friendly_name": "Terrasse",
+    "brightness": null,
+    "supported_color_modes": [
+     "brightness"
+    ]
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "cover.wohnzimmer_rollladen": {
+   "entity_id": "cover.wohnzimmer_rollladen",
+   "state": "open",
+   "attributes": {
+    "friendly_name": "Wohnzimmer Rollladen",
+    "current_position": 100,
+    "device_class": "shutter",
+    "supported_features": 15
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "cover.kuche_rollladen": {
+   "entity_id": "cover.kuche_rollladen",
+   "state": "open",
+   "attributes": {
+    "friendly_name": "Küche Rollladen",
+    "current_position": 100,
+    "device_class": "shutter",
+    "supported_features": 15
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "cover.schlafzimmer_rollladen": {
+   "entity_id": "cover.schlafzimmer_rollladen",
+   "state": "closed",
+   "attributes": {
+    "friendly_name": "Schlafzimmer Rollladen",
+    "current_position": 0,
+    "device_class": "shutter",
+    "supported_features": 15
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "cover.buro_rollladen": {
+   "entity_id": "cover.buro_rollladen",
+   "state": "open",
+   "attributes": {
+    "friendly_name": "Büro Rollladen",
+    "current_position": 60,
+    "device_class": "shutter",
+    "supported_features": 15
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "binary_sensor.terrassentur": {
+   "entity_id": "binary_sensor.terrassentur",
+   "state": "off",
+   "attributes": {
+    "friendly_name": "Terrassentür",
+    "device_class": "door"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "binary_sensor.bad_fenster": {
+   "entity_id": "binary_sensor.bad_fenster",
+   "state": "on",
+   "attributes": {
+    "friendly_name": "Badfenster",
+    "device_class": "window"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "binary_sensor.kuche_fenster": {
+   "entity_id": "binary_sensor.kuche_fenster",
+   "state": "off",
+   "attributes": {
+    "friendly_name": "Küchenfenster",
+    "device_class": "window"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "lock.haustur": {
+   "entity_id": "lock.haustur",
+   "state": "locked",
+   "attributes": {
+    "friendly_name": "Haustür"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "alarm_control_panel.alarmanlage": {
+   "entity_id": "alarm_control_panel.alarmanlage",
+   "state": "disarmed",
+   "attributes": {
+    "friendly_name": "Alarmanlage"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "binary_sensor.rauchmelder_flur": {
+   "entity_id": "binary_sensor.rauchmelder_flur",
+   "state": "off",
+   "attributes": {
+    "friendly_name": "Rauchmelder Flur",
+    "device_class": "smoke"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.bad_fenster_batterie": {
+   "entity_id": "sensor.bad_fenster_batterie",
+   "state": "18",
+   "attributes": {
+    "friendly_name": "Badfenster Batterie",
+    "device_class": "battery",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.rauchmelder_flur_batterie": {
+   "entity_id": "sensor.rauchmelder_flur_batterie",
+   "state": "64",
+   "attributes": {
+    "friendly_name": "Rauchmelder Flur Batterie",
+    "device_class": "battery",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.thermostat_bad_batterie": {
+   "entity_id": "sensor.thermostat_bad_batterie",
+   "state": "81",
+   "attributes": {
+    "friendly_name": "Thermostat Bad Batterie",
+    "device_class": "battery",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "sensor.terrassentur_batterie": {
+   "entity_id": "sensor.terrassentur_batterie",
+   "state": "92",
+   "attributes": {
+    "friendly_name": "Terrassentür Batterie",
+    "device_class": "battery",
+    "unit_of_measurement": "%"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "media_player.wohnzimmer": {
+   "entity_id": "media_player.wohnzimmer",
+   "state": "playing",
+   "attributes": {
+    "friendly_name": "Wohnzimmer",
+    "media_title": "Sonntagmorgen",
+    "media_artist": "Jazz Trio",
+    "volume_level": 0.32,
+    "supported_features": 152463
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "person.anna": {
+   "entity_id": "person.anna",
+   "state": "home",
+   "attributes": {
+    "friendly_name": "Anna"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "person.ben": {
+   "entity_id": "person.ben",
+   "state": "not_home",
+   "attributes": {
+    "friendly_name": "Ben"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  },
+  "zone.home": {
+   "entity_id": "zone.home",
+   "state": "1",
+   "attributes": {
+    "friendly_name": "Zuhause"
+   },
+   "last_changed": "2026-11-22T13:30:00+00:00",
+   "last_updated": "2026-11-22T13:30:00+00:00"
+  }
+ },
+ "entities": {
+  "sensor.pv_leistung": {
+   "device_id": "wechselrichter",
+   "area_id": null
+  },
+  "sensor.netz_leistung": {
+   "device_id": "stromzaehler",
+   "area_id": null
+  },
+  "sensor.batteriespeicher_leistung": {
+   "device_id": "speicher",
+   "area_id": null
+  },
+  "sensor.hausverbrauch": {
+   "device_id": "stromzaehler",
+   "area_id": null
+  },
+  "sensor.batteriespeicher_ladestand": {
+   "device_id": "speicher",
+   "area_id": null
+  },
+  "sensor.zisterne_fullstand": {
+   "device_id": "mangfall_level",
+   "area_id": "garten"
+  },
+  "sensor.zisterne_fullgrad": {
+   "device_id": "mangfall_level",
+   "area_id": "garten"
+  },
+  "sensor.wohnzimmer_temperatur": {
+   "device_id": "wohnzimmer_klima",
+   "area_id": "wohnzimmer"
+  },
+  "sensor.wohnzimmer_luftfeuchtigkeit": {
+   "device_id": "wohnzimmer_klima",
+   "area_id": "wohnzimmer"
+  },
+  "sensor.kuche_temperatur": {
+   "device_id": "kuche_klima",
+   "area_id": "kuche"
+  },
+  "sensor.kuche_luftfeuchtigkeit": {
+   "device_id": "kuche_klima",
+   "area_id": "kuche"
+  },
+  "sensor.schlafzimmer_temperatur": {
+   "device_id": "schlafzimmer_klima",
+   "area_id": "schlafzimmer"
+  },
+  "sensor.schlafzimmer_luftfeuchtigkeit": {
+   "device_id": "schlafzimmer_klima",
+   "area_id": "schlafzimmer"
+  },
+  "sensor.bad_temperatur": {
+   "device_id": "bad_klima",
+   "area_id": "bad"
+  },
+  "sensor.bad_luftfeuchtigkeit": {
+   "device_id": "bad_klima",
+   "area_id": "bad"
+  },
+  "sensor.buro_temperatur": {
+   "device_id": "buro_klima",
+   "area_id": "buro"
+  },
+  "sensor.buro_luftfeuchtigkeit": {
+   "device_id": "buro_klima",
+   "area_id": "buro"
+  },
+  "sensor.wohnzimmer_co2": {
+   "device_id": "wohnzimmer_klima",
+   "area_id": "wohnzimmer"
+  },
+  "sensor.buro_co2": {
+   "device_id": "buro_klima",
+   "area_id": "buro"
+  },
+  "climate.wohnzimmer": {
+   "device_id": "wohnzimmer_thermostat",
+   "area_id": "wohnzimmer"
+  },
+  "climate.bad": {
+   "device_id": "bad_thermostat",
+   "area_id": "bad"
+  },
+  "climate.schlafzimmer": {
+   "device_id": "schlafzimmer_thermostat",
+   "area_id": "schlafzimmer"
+  },
+  "climate.buro": {
+   "device_id": "buro_thermostat",
+   "area_id": "buro"
+  },
+  "sensor.tibber_strompreis": {
+   "device_id": "tibber",
+   "area_id": null
+  },
+  "sensor.id_3_ladestand": {
+   "device_id": "id3",
+   "area_id": "garage"
+  },
+  "sensor.id_3_reichweite": {
+   "device_id": "id3",
+   "area_id": "garage"
+  },
+  "binary_sensor.id_3_ladekabel": {
+   "device_id": "id3",
+   "area_id": "garage"
+  },
+  "lawn_mower.sileno": {
+   "device_id": "maehroboter",
+   "area_id": "garten"
+  },
+  "sensor.sileno_akku": {
+   "device_id": "maehroboter",
+   "area_id": "garten"
+  },
+  "vacuum.saugi": {
+   "device_id": "saugroboter",
+   "area_id": "flur"
+  },
+  "sensor.abfallkalender": {
+   "device_id": "abfall",
+   "area_id": null
+  },
+  "weather.musterstadt": {
+   "device_id": "wetter",
+   "area_id": null
+  },
+  "light.wohnzimmer_decke": {
+   "device_id": "wohnzimmer_decke",
+   "area_id": "wohnzimmer"
+  },
+  "light.wohnzimmer_stehlampe": {
+   "device_id": "wohnzimmer_stehlampe",
+   "area_id": "wohnzimmer"
+  },
+  "light.kuche": {
+   "device_id": "kuche",
+   "area_id": "kuche"
+  },
+  "light.flur": {
+   "device_id": "flur",
+   "area_id": "flur"
+  },
+  "light.schlafzimmer": {
+   "device_id": "schlafzimmer",
+   "area_id": "schlafzimmer"
+  },
+  "light.terrasse": {
+   "device_id": "terrasse",
+   "area_id": "garten"
+  },
+  "cover.wohnzimmer_rollladen": {
+   "device_id": "wohnzimmer_rollladen",
+   "area_id": "wohnzimmer"
+  },
+  "cover.kuche_rollladen": {
+   "device_id": "kuche_rollladen",
+   "area_id": "kuche"
+  },
+  "cover.schlafzimmer_rollladen": {
+   "device_id": "schlafzimmer_rollladen",
+   "area_id": "schlafzimmer"
+  },
+  "cover.buro_rollladen": {
+   "device_id": "buro_rollladen",
+   "area_id": "buro"
+  },
+  "binary_sensor.terrassentur": {
+   "device_id": "terrassentur",
+   "area_id": "wohnzimmer"
+  },
+  "binary_sensor.bad_fenster": {
+   "device_id": "bad_fenster",
+   "area_id": "bad"
+  },
+  "binary_sensor.kuche_fenster": {
+   "device_id": "kuche_fenster",
+   "area_id": "kuche"
+  },
+  "lock.haustur": {
+   "device_id": "haustur",
+   "area_id": "flur"
+  },
+  "alarm_control_panel.alarmanlage": {
+   "device_id": "alarm",
+   "area_id": "flur"
+  },
+  "binary_sensor.rauchmelder_flur": {
+   "device_id": "rauchmelder",
+   "area_id": "flur"
+  },
+  "sensor.bad_fenster_batterie": {
+   "device_id": "bad_fenster_batterie",
+   "area_id": null
+  },
+  "sensor.rauchmelder_flur_batterie": {
+   "device_id": "rauchmelder_flur_batterie",
+   "area_id": null
+  },
+  "sensor.thermostat_bad_batterie": {
+   "device_id": "thermostat_bad_batterie",
+   "area_id": null
+  },
+  "sensor.terrassentur_batterie": {
+   "device_id": "terrassentur_batterie",
+   "area_id": null
+  },
+  "media_player.wohnzimmer": {
+   "device_id": "lautsprecher",
+   "area_id": "wohnzimmer"
+  },
+  "person.anna": {
+   "device_id": "anna",
+   "area_id": null
+  },
+  "person.ben": {
+   "device_id": "ben",
+   "area_id": null
+  },
+  "zone.home": {
+   "device_id": "home",
+   "area_id": null
+  }
+ },
+ "devices": {
+  "wechselrichter": {
+   "area_id": null
+  },
+  "stromzaehler": {
+   "area_id": null
+  },
+  "speicher": {
+   "area_id": null
+  },
+  "mangfall_level": {
+   "area_id": "garten"
+  },
+  "wohnzimmer_klima": {
+   "area_id": "wohnzimmer"
+  },
+  "kuche_klima": {
+   "area_id": "kuche"
+  },
+  "schlafzimmer_klima": {
+   "area_id": "schlafzimmer"
+  },
+  "bad_klima": {
+   "area_id": "bad"
+  },
+  "buro_klima": {
+   "area_id": "buro"
+  },
+  "wohnzimmer_thermostat": {
+   "area_id": "wohnzimmer"
+  },
+  "bad_thermostat": {
+   "area_id": "bad"
+  },
+  "schlafzimmer_thermostat": {
+   "area_id": "schlafzimmer"
+  },
+  "buro_thermostat": {
+   "area_id": "buro"
+  },
+  "tibber": {
+   "area_id": null
+  },
+  "id3": {
+   "area_id": "garage"
+  },
+  "maehroboter": {
+   "area_id": "garten"
+  },
+  "saugroboter": {
+   "area_id": "flur"
+  },
+  "abfall": {
+   "area_id": null
+  },
+  "wetter": {
+   "area_id": null
+  },
+  "wohnzimmer_decke": {
+   "area_id": "wohnzimmer"
+  },
+  "wohnzimmer_stehlampe": {
+   "area_id": "wohnzimmer"
+  },
+  "kuche": {
+   "area_id": "kuche"
+  },
+  "flur": {
+   "area_id": "flur"
+  },
+  "schlafzimmer": {
+   "area_id": "schlafzimmer"
+  },
+  "terrasse": {
+   "area_id": "garten"
+  },
+  "wohnzimmer_rollladen": {
+   "area_id": "wohnzimmer"
+  },
+  "kuche_rollladen": {
+   "area_id": "kuche"
+  },
+  "schlafzimmer_rollladen": {
+   "area_id": "schlafzimmer"
+  },
+  "buro_rollladen": {
+   "area_id": "buro"
+  },
+  "terrassentur": {
+   "area_id": "wohnzimmer"
+  },
+  "bad_fenster": {
+   "area_id": "bad"
+  },
+  "kuche_fenster": {
+   "area_id": "kuche"
+  },
+  "haustur": {
+   "area_id": "flur"
+  },
+  "alarm": {
+   "area_id": "flur"
+  },
+  "rauchmelder": {
+   "area_id": "flur"
+  },
+  "bad_fenster_batterie": {
+   "area_id": null
+  },
+  "rauchmelder_flur_batterie": {
+   "area_id": null
+  },
+  "thermostat_bad_batterie": {
+   "area_id": null
+  },
+  "terrassentur_batterie": {
+   "area_id": null
+  },
+  "lautsprecher": {
+   "area_id": "wohnzimmer"
+  },
+  "anna": {
+   "area_id": null
+  },
+  "ben": {
+   "area_id": null
+  },
+  "home": {
+   "area_id": null
+  }
+ },
+ "areas": {
+  "wohnzimmer": {
+   "name": "Wohnzimmer"
+  },
+  "kuche": {
+   "name": "Küche"
+  },
+  "schlafzimmer": {
+   "name": "Schlafzimmer"
+  },
+  "bad": {
+   "name": "Bad"
+  },
+  "buro": {
+   "name": "Büro"
+  },
+  "flur": {
+   "name": "Flur"
+  },
+  "garten": {
+   "name": "Garten"
+  },
+  "garage": {
+   "name": "Garage"
+  }
+ }
+}

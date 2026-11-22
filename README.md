@@ -17,6 +17,17 @@ Haglo Assist (haglotech/addons) uses the same cards and builds dashboards with t
 Zisterne, Energiefluss, Strompreis, Raumklima, Heizung, Batterien, Fenster und Türen, Mähroboter,
 Müllabfuhr, Wetter und mehr. Kein YAML, kein roter Fehlerkasten, alles auf Deutsch.
 
+<p>
+  <img src="docs/images/energy.png" width="32%" alt="Energie">
+  <img src="docs/images/level.png" width="32%" alt="Zisterne">
+  <img src="docs/images/price.png" width="32%" alt="Strompreis">
+</p>
+<p>
+  <img src="docs/images/climate.png" width="32%" alt="Raumklima">
+  <img src="docs/images/heating.png" width="32%" alt="Heizung">
+  <img src="docs/images/waste.png" width="32%" alt="Müllabfuhr">
+</p>
+
 ### Installation als App (empfohlen)
 
 1. **Einstellungen → Apps** (früher „Add-ons“) **→ App Store → ⋮ → Repositories**
@@ -38,6 +49,7 @@ Die Karten senden keine Daten nach außen. Mehr unter [mangfall.eu/karten](https
 | `mangfall-cards/app/mangfall-cards.js` | The card library (single source of truth, `MC_VERSION`) |
 | `mangfall-cards/app/run.py` | Add-on: copy the file, register/update the resource, take over Haglo Assist's copy, skip HACS copies |
 | `mangfall-cards/tests/` | `cards.test.mjs` (render tests with an anonymised sample home), `test_run.py` (resource planning) |
+| `tools/` | `demo_home.py` builds an invented sample home, `shots.mjs` renders card screenshots with Playwright |
 | `repository.yaml`, `hacs.json` | Required at the top level by the Home Assistant add-on store and by HACS |
 
 ## Test
