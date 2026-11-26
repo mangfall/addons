@@ -1,5 +1,5 @@
 name: MANGFALL Karten
-version: "1.5.1"
+version: "1.5.2"
 slug: mangfall-cards
 description: 26 Dashboard-Karten, die ihre Sensoren selbst finden – ohne YAML, ohne HACS
 url: https://mangfall.eu/karten
@@ -11,5 +11,6 @@ startup: once
 boot: auto
 init: false
 homeassistant_api: true
+hassio_api: true
 map:
   - homeassistant_config:rw

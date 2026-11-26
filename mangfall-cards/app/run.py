@@ -25,6 +25,7 @@ LIB = "mangfall-cards"
 TAKE_OVER = ("/local/haglo/mangfall-cards.js",)  # older copies from Haglo Assist
 WS_URL = "ws://supervisor/core/websocket"
 TOKEN = os.environ.get("SUPERVISOR_TOKEN", "")
+AUTO_UPDATE_MARK = Path("/data/auto_update_on")
 
 
 def log(msg: str) -> None:
@@ -147,11 +148,30 @@ async def install(session) -> int:
     return 0
 
 
+async def auto_update(session) -> None:
+    """Turn on automatic updates once. If the user switches them off later, that choice stays."""
+    if AUTO_UPDATE_MARK.exists():
+        return
+    try:
+        async with session.post(
+            "http://supervisor/addons/self/options",
+            headers={"Authorization": f"Bearer {TOKEN}"},
+            json={"auto_update": True},
+            timeout=aiohttp.ClientTimeout(total=20),
+        ) as r:
+            if r.status == 200:
+                AUTO_UPDATE_MARK.write_text("1")
+                log("Automatische Updates eingeschaltet.")
+    except (aiohttp.ClientError, OSError, asyncio.TimeoutError):
+        pass  # next start tries again
+
+
 async def main() -> int:
     if not CONFIG.is_dir() or not SRC.is_file() or not TOKEN:
         log("Kein Zugriff auf die Home-Assistant-Konfiguration – Add-on-Rechte prüfen.")
         return 1
     async with aiohttp.ClientSession() as session:
+        await auto_update(session)
         for attempt in range(30):  # Home Assistant may still be starting
             try:
                 return await install(session)
